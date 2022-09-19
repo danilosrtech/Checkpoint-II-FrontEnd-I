@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.bg-home {
+    background-image: url('./assets/img/bg-home.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    color: white;
+    padding: 3rem 1.5rem;
+    min-height: 100vh;
+}
+
+.btn-custom {
+    background-color: #7ED957;
+    color: white;
+    border: none;
+}
+
+.courses {
+    padding: 12px;
+}
+
+.title {
+    padding: 2rem 0;
+}
+
+.card-img {
+    padding: .75rem;
+    margin: .625rem;
+}
+
+.card-img img{
+    margin: 0 auto;
+    width: 50%;
+}
+
+.footer-section {
+    background-color: black;
+    color: white;
+}
+
+.alunos {
+    padding: 4rem;
+}
+
+.alunos a{
+    color: #7ED957;
+}
+
+.prof-ivin {
+    font-size: 0.8rem;
+    padding: 2rem;
+}
