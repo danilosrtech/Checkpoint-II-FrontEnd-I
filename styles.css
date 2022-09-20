@@ -40,8 +40,8 @@ body {
 }
 
 .card-img {
-    padding: .75rem;
-    margin: .625rem;
+    padding: 1rem;
+    margin-top: 1rem;
 }
 
 .card-img img{
@@ -55,7 +55,7 @@ body {
 }
 
 .alunos {
-    padding: 4rem;
+    padding: 2rem 1rem;
 }
 
 .alunos a{
