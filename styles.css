@@ -14,6 +14,43 @@ body {
     background-repeat: no-repeat;
 }
 
+.modal-tamanho {
+    width: 300px;
+}
+
+.modal-fechar {
+    display: block;
+    margin-top: 2%;
+    margin-left: 90%;
+}
+
+.logo-form {
+    width: 200px;
+}
+
+.login input {
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.botao button {
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+
+    background-color: #7ED957;
+    color: white;
+    border: none;
+  }
+
+
+.esqueci a {
+    margin: 22%;
+    font-size: 13px;
+    text-decoration: none;
+}
+
 .main-section {
     display: flex;
     flex-direction: column;
