@@ -1,0 +1,34 @@
+.formulario {
+  width: 300px;
+  border: 1px solid #0d6fed;
+  border-radius: 10px;
+  margin: 25vh auto;
+  padding: 20px;
+  bottom: 30%;
+}
+
+.h3 {
+  display: block;
+  margin: 25px 0;
+  text-align: center;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+}
+
+.login input {
+  width: 250px;
+}
+
+.botao button {
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.esqueci {
+  text-align: center;
+  font-size: 12px;
+}

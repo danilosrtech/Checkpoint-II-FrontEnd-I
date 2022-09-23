@@ -4,7 +4,7 @@
 header {
   position: sticky;
   top: 0;
-  z-index: 2;
+  z-index: 3;
   background-color: #202020;
 }
 
@@ -30,14 +30,14 @@ header {
 }
 
 body {
-  background-color: #059b9a;
+  background-image: linear-gradient(90deg, #0d6fed, #8d3c8d, #0d6fed);
 }
 
 .banner {
   position: relative;
   width: 100%;
   height: 100vh;
-  background-image: url(/img/teclado1.webp);
+  background-image: url(/Home/img/teclado1.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -60,6 +60,7 @@ body {
   color: #f3f3f3;
   top: 27vw;
   font-family: 'Nanum Gothic', sans-serif;
+  font-size: 1.5vw;
   left: 42%;
   transform: translate(0 -50%);
   width: 15vw;
@@ -79,34 +80,57 @@ body {
   margin-bottom: 5vh;
 }
 
+.card-body p {
+  font-size: 40%;
+}
+
 .card {
-  width: 350px;
+  width: 300px;
+  border-radius: 15px;
+  overflow: hidden;
 }
 
 .cursos {
   gap: 2vw;
 }
 
-.top {
-  height: 245.88px;
-}
-
 .card-img-top{
   filter: brightness(10%);
 }
 
+.top {
+  background-image: url(/Home/img/Produtos/Untitled\ \(1\).svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 245.88px;
+}
+
 .logo {
-  height: 20vh;
-  top: 1vh;
+  height: 80%;
   z-index: 2;
+  display: block;
+  padding: 3vh;
+  margin: 0 auto;
 }
 
 .card-title {
   font-family: 'Bebas Neue', sans-serif;
   color: #f3f3f3;
-  position: absolute;
-  font-size: 7vh;
-  left: 35%;
-  top: 80%;
+  display: block;
+  text-align: center;
+  font-size: 110%;
   z-index: 2;
+}
+
+.botao {
+  background-color: #202020;
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+  border: none;
+}
+
+.botao:hover {
+  background-color: #0d6fed;
 }
