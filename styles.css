@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
 
+@keyframes animation-logo {
+    0% {
+
+    }
+
+    100% {
+        transform: scale(1.05)
+    }
+}
+
+@keyframes animation-cards {
+    0% {
+
+    }
+
+    100% {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+}
+
 body {
     font-family: 'Montserrat Alternates', sans-serif;
 }
@@ -8,10 +28,28 @@ body {
     width: 200px;
 }
 
+.logo:hover {
+    animation-name: animation-logo;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.btn-custom {
+    background-color: #7ED957;
+    color: white;
+    border: none;
+}
+
+.nav-link:hover {
+    color: #7ED957;
+}
+
 .bg-home {
     background-image: url('./assets/img/bg-home.png');
-    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .main-section {
@@ -23,12 +61,6 @@ body {
     color: white;
     padding: 3rem 1.5rem;
     min-height: 100vh;
-}
-
-.btn-custom {
-    background-color: #7ED957;
-    color: white;
-    border: none;
 }
 
 .courses {
@@ -49,6 +81,11 @@ body {
     width: 50%;
 }
 
+.card-img:hover {
+    animation-name: animation-cards;
+    animation-fill-mode: forwards;
+}
+
 .footer-section {
     background-color: black;
     color: white;
@@ -60,6 +97,10 @@ body {
 
 .alunos a{
     color: #7ED957;
+}
+
+.alunos a:hover {
+    color: #198754
 }
 
 .prof-ivin {
