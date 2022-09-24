@@ -78,7 +78,8 @@
 }
 
 .banner-page{
-    background-color:rgb(28, 146, 68);
+    /* background-color:rgb(28, 146, 68); */
+    background: url(./assets/img/bg-home.png);
     min-height: 300px;
     display: flex;
     align-items: center;
