@@ -37,13 +37,10 @@
                             <a class="nav-link" href="#">Sobre</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Login</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="#">Contato</a>
                         </li>
                         <li class="nav-item">
-                            <button type="button" class="btn btn-success btn-custom" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <button type="button" class="btn btn-success btn-custom" data-bs-toggle="modal" data-bs-target="#Login">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                     class="bi bi-person-circle" viewBox="0 0 16 16">
                                     <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
@@ -61,36 +58,36 @@
             </div>
             </div>
         </nav>      
-          <div id="Login" class="modal">
+        <div id="Login" class="modal">
             <div class="modal-dialog">
-              <div class="modal-content modal-tamanho">
+                <div class="modal-content modal-tamanho">
                 <button type="button" class="btn btn-close modal-fechar bg-secondary" data-bs-dismiss="modal"></button>
                 <div class="modal-header justify-content-center">
-                  <h3 class="modal-title"><img src="./assets/img/logo.png" alt="Logo" class="d-inline-block align-text-top logo-form"></h3>                 
+                    <h3 class="modal-title"><img src="./assets/img/logo.png" alt="Logo" class="d-inline-block align-text-top logo-form"></h3>                 
                 </div>
                 <div class="modal-body">
-                  <form>
+                    <form>
                     <p class="login justify-content-center">
                         <input type="email" name="usuario" placeholder="e-mail" required>
-                      </p>
-                      <p class="login">
+                        </p>
+                        <p class="login">
                         <input type="password" name="senha" placeholder="senha" required>
-                      </p>
-                      <p class="botao">
+                        </p>
+                        <p class="botao">
                         <button type="submit" class="btn btn-success btn-custom btn-lg  ">Entrar</button>
-                      </p>
-                      <p class="botao">
+                        </p>
+                        <p class="botao">
                         <button type="submit" class="btn btn-success btn-custom btn-lg">Cadastrar usuário</button>
-                      </p>
-                      <p class="esqueci">
+                        </p>
+                        <p class="esqueci">
                         <a href="#">Esqueci minha senha</a>
-                      </p>
-                  </form>
+                        </p>
+                    </form>
                 </div>
                 </div>
-              </div>
+                </div>
             </div>
-          </div>
+        </div>
       
     </header>
 
@@ -262,27 +259,6 @@
             <p>Checkpoint 02 - Front End </p>
         </div>
     </footer>
-
-
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Login</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-            ...
-            </div>
-            <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-            <button type="button" class="btn btn-success btn-custom">Entrar</button>
-            </div>
-        </div>
-        </div>
-    </div>
-
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
