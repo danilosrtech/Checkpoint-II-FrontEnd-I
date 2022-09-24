@@ -1,21 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ARDTech</title>
-
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style-page.css">
+    <title>Curso Bootstrap</title>
 </head>
-
 <body>
     <header>
+      <header>
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container">
                 <a class="navbar-brand logo" href="#">
@@ -88,97 +83,66 @@
                 </div>
             </div>
         </div>
-      
+          <div class="banner-page">
+              <h1>
+                Cursos ADTech
+              </h1>
+              <div class="icons-banner">
+                <ul class="icon-list">
+                  <li><img src="./assets/img/bootstrap.png" alt="bootstrap-icon"></li>
+                  <li><img src="./assets/img/css3.png" alt="css3-icon"></li>
+                  <li><img src="./assets/img/html5.png" alt="html-icon"></li>
+                  <li><img src="./assets/img/javascript.png" alt="js-icon"></li>
+                  <li><img src="./assets/img/mysql.png" alt="mysql-icon"></li>
+                  <li><img src="./assets/img/php.png" alt="php-icon"></li>
+                </ul>
+              </div>
+          </div>
+          <div class="border-banner">
+            <h4>Curso Bootstrap</h4>
+          </div>
     </header>
+    <main class="main-section">
+      <div class="card-main">
+        <img class="img-card" src="./assets/img/css3.png" alt="">
+        <div class="card">
+          <h5 class="card-header">Sobre</h5>
+          <div class="card-body">
+            <h5 class="card-title">O que é:</h5>
+            <p class="card-text">CSS3 é a terceira mais nova versão das famosas Cascading Style Sheets, pela qual se define estilos para um projeto web. Com efeitos de transição, imagem, imagem de fundo/background e outros, pode-se criar estilos únicos para seus projetos web, alterando diversos aspectos de design no layout da página.</p>
+            <p>
+              Cascading Style Sheets (CSS) é um mecanismo para adicionar estilo (cores, fontes, espaçamento, etc.) a um documento web.
+            </p>
+            <p>
+              O código CSS pode ser aplicado diretamente nas tags ou ficar contido dentro das tags "style". Também é possível, em vez de colocar a formatação dentro do documento, criar um link para um arquivo CSS que contém os estilos. Assim, quando se quiser alterar a aparência dos documentos vinculados a este arquivo CSS, basta modifica-lo.
+            </p>
+            <p>
+              Com a variação de atualizações dos navegadores, o suporte ao CSS pode variar. A interpretação dos navegadores pode ser avaliada com o teste Acid2, que se tornou uma forma base de revelar quão eficiente é o suporte de CSS, fazendo com que a nova versão em desenvolvimento do Firefox seja totalmente compatível a ele, assim como o Opera já é. O Doctype informado, ou a ausência dele, determina o quirks mode ou o strict mode, modificando o modo como o CSS é interpretado e a página desenhada.
+            </p>
+            <h5>Sintaxe</h5>
+            <p>
+              CSS tem uma sintaxe simples, e utiliza uma série de palavras em inglês para especificar os nomes de diferentes propriedade de estilo de uma página.
+            </p>
+            <p>
+              Uma instrução CSS consiste em um seletor e um bloco de declaração. Cada declaração contém uma propriedade e um valor, separados por dois pontos (:). Cada declaração é separada por ponto e vírgula (;).
+            </p>
+            <p>
+              Em CSS, seletores são usados para declarar a quais elementos de marcação um estilo se aplica, uma espécie de expressão correspondente. Os seletores podem ser aplicados a todos os elementos de um tipo específico, ou apenas aqueles elementos que correspondam a um determinado atributo; elementos podem ser combinados, dependendo de como eles são colocados em relação uns aos outros no código de marcação, ou como eles estão aninhados dentro do objeto de documento model
+            </p>
+            <p>
+              Pseudoclasse é outra forma de especificação usada em CSS para identificar os elementos de marcação, e, em alguns casos, ações específicas de usuário para o qual um bloco de declaração especial se aplica. Um exemplo frequentemente utilizado é o :hover pseudoclasse que se aplica um estilo apenas quando o usuário 'aponta para' o elemento visível, normalmente, mantendo o cursor do mouse sobre ele. Isto é anexado a um seletor como em a:hover ou #elementid:hover. Outras pseudoclasses e pseudoelementos são, p. ex., :first-line, :visited ou :before. Uma pseudoclasse especial é :lang(c), "c".
+            </p>
+            <p>
+              Uma pseudoclasse seleciona elementos inteiros, tais como :link ou :visited, considerando que um pseudoelemento faz uma seleção que pode ser constituída por elementos parciais, tais como :first-line ou :first-letter.
 
-    <main class="site-content text-center">
-
-        <section class="container-fluid bg-home">
-
-            <div class="container main-section">
-                <h1>ARDTech <br> a melhor escola de desenvolvimento web do Brasil</h1>
-                <p>Aulas síncronas e assíncronas</p>
-                <a href="#alunos"><button class="btn btn-success btn-custom btn-lg">Conheça os nossos
-                        cursos</button></a>
-            </div>
-
-        </section>
-
-        <section class="container courses my-5">
-            <h2 class="title" id="alunos">Conheça os nossos cursos</h2>
-            <div class="row">
-                <div class="col-md-4 col-sm-12">
-                    <div class="card card-img" id="flipCard">
-                        <img src="./assets/img/html5.png" class="card-img-top" alt="HTML5">
-                        <div class="card-body">
-                            <h5 class="card-title">HTML5</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-success btn-custom">Saiba mais</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="card card-img">
-                        <img src="./assets/img/css3.png" class="card-img-top" alt="CSS3">
-                        <div class="card-body">
-                            <h5 class="card-title">CSS3</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-success btn-custom">Saiba mais</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="card card-img">
-                        <img src="./assets/img/javascript.png" class="card-img-top" alt="Javascript">
-                        <div class="card-body">
-                            <h5 class="card-title">Javascript</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-success btn-custom">Saiba mais</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-12">
-                    <div class="card card-img">
-                        <img src="./assets/img/php.png" class="card-img-top" alt="HTML5">
-                        <div class="card-body">
-                            <h5 class="card-title">PHP</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-success btn-custom">Saiba mais</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="card card-img">
-                        <img src="./assets/img/mysql.png" class="card-img-top" alt="CSS3">
-                        <div class="card-body">
-                            <h5 class="card-title">MySQL</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-success btn-custom">Saiba mais</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="card card-img">
-                        <img src="./assets/img/bootstrap.png" class="card-img-top" alt="Javascript">
-                        <div class="card-body">
-                            <h5 class="card-title">Bootstrap</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-success btn-custom">Saiba mais</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+              Seletores podem ser combinados de outras formas também, especialmente em CSS 2.1, para alcançar uma maior especificidade e flexibilidade.
+            </p>
+            <p>Fonte: Wikipedia</p>
+            <a href="#" class="btn btn-primary">Clique aqui para saber mais</a>
+          </div>
+        </div>
+      </div>
     </main>
-
     <footer class="footer-section">
         <div class="container text-center alunos">
             <div class="row">
@@ -258,12 +222,7 @@
         <div class="prof-ivin">
             <p>Checkpoint 02 - Front End </p>
         </div>
-    </footer>
-
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-        crossorigin="anonymous"></script>
+</footer>
 </body>
-
-</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</html>  
