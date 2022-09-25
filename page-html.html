@@ -11,7 +11,7 @@
 <body>
     <header>
       <header>
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg bg-light sticky-top">
             <div class="container">
                 <a class="navbar-brand logo" href="#">
                     <img src="./assets/img/logo.png" alt="Logo" class="d-inline-block align-text-top">
@@ -23,16 +23,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav navbar ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Início</a>
+                            <a class="nav-link active" aria-current="page" href="./index.html">Início</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Cursos</a>
+                            <a class="nav-link" href="./index.html#alunos">Cursos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre</a>
+                            <a class="nav-link" href="./page-sobre.html">Sobre</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contato</a>
+                            <a class="nav-link" href="#contato">Contato</a>
                         </li>
                         <li class="nav-item">
                             <button type="button" class="btn btn-success btn-custom" data-bs-toggle="modal" data-bs-target="#Login">
@@ -83,29 +83,30 @@
                 </div>
             </div>
         </div>
-          <div class="banner-page">
-              <h1>
-                Cursos
-              </h1>
-              <div class="icons-banner">
-                <ul class="icon-list">
-                    <li><img src="./assets/img/css3.png" alt="css3-icon"></li>
-                    <li><img src="./assets/img/html5.png" alt="html-icon"></li>
-                    <li><img src="./assets/img/javascript.png" alt="js-icon"></li>
-                    <li><img src="./assets/img/php.png" alt="php-icon"></li>
-                    <li><img src="./assets/img/icons8-bootstrap-480.png" alt="bootstrap-icon"></li>
-                    <li><img src="./assets/img/mysql.png" alt="mysql-icon"></li>
-                </ul>
-              </div>
-          </div>
-          <div class="border-banner">
-            <h4>Cursos</h4>
-          </div>
+
     </header>
     <main class="main-section">
-      <div class="card-main">
+        <div class="banner-page">
+            <h1>
+              Cursos
+            </h1>
+            <div class="icons-banner">
+              <ul class="icon-list">
+                  <a href="#html"><li><img src="./assets/img/html-banner.png" alt="html-icon"></li></a>
+                  <a href="./page-css.html" class="btn-banner"><li><img src="./assets/img/css-banner.png" alt="css3-icon"></li></a>
+                  <a href="./page-js.html"><li><img src="./assets/img/js-banner.png" alt="js-icon"></li></a>
+                  <a href="./page-php.html"><li><img src="./assets/img/php.png" alt="php-icon"></li></a>
+                  <a href="./page-bs.html"><li><img src="./assets/img/icons8-bootstrap-480.png" alt="bootstrap-icon"></li></a>
+                  <a href="./page-mysql.html"><li><img src="./assets/img/mysql.png" alt="mysql-icon"></li></a>   
+              </ul>
+            </div>
+        </div>
+        <div class="border-banner">
+          <h4>Curso HTML5</h4>
+        </div>
+    <div id="html" class="card-main">
         <img class="img-card" src="./assets/img/html5.png" alt="">
-        <div class="card">
+        <div  class="card">
           <h5 class="card-header">Sobre</h5>
           <div class="card-body">
             <h6>O que é: </h6>
@@ -115,7 +116,7 @@
               
               <p>SGML é um padrão de formatação de textos. Não foi desenvolvido para hipertexto, mas tornou-se conveniente para transformar documentos em hiper-objetos e para descrever as ligações.</p>
 
-              <h6>História</h6>
+              <h6>História:</h6>
               <p>Tim Berners-Lee (físico britânico) criou o HTML original (e outros protocolos associados como o HTTP), numa estação NeXTcube, usando o ambiente de desenvolvimento NeXTSTEP. Na época, a linguagem não era uma especificação, mas uma coleção de ferramentas para resolver um problema de Tim: a comunicação e disseminação das pesquisas entre ele e o seu grupo de colegas. A sua solução, combinada com a então emergente internet pública (que tornar-se-ia a Internet), ganhou atenção mundial.</p>
 
               <p>As primeiras versões do HTML foram definidas com regras sintáticas flexíveis, o que ajudou aqueles sem familiaridade com a publicação na Web. Através do tempo, a utilização de ferramentas para autoria de HTML aumentou, assim como a tendência em tornar a sintaxe cada vez mais rígida. Apesar disso, por questões históricas (retrocompatibilidade), os navegadores ainda hoje conseguem interpretar páginas web que estão longe de ser um código HTML válido.</p>
@@ -124,16 +125,18 @@
 
               <p>Desde a publicação do HTML 3.5 no final de 1997, o grupo de trabalho da W3C tem cada vez mais — e de 2002 a 2006, de forma exclusiva — focado no desenvolvimento do XHTML, uma especificação HTML baseada em XML que é considerada pela W3C como um sucessor do HTML.[2][3][4] O XHTML faz uso de uma sintaxe mais rigorosa e menos ambígua para tornar o HTML mais simples de ser processado e estendido.</p>
 
-              <p>Em janeiro de 2008 o W3C publicou a especificação do HTML5 como Working Draft. Apesar de sua sintaxe ser semelhante à de SGML, o HTML5 abandonou qualquer tentativa de ser uma aplicação SGML e definiu explicitamente sua própria serialização "html", além de uma alternativa baseada em XML, o XHTML5.[5]</p>
+              <p>Em janeiro de 2008 o W3C publicou a especificação do HTML5 como Working Draft. Apesar de sua sintaxe ser semelhante à de SGML, o HTML5 abandonou qualquer tentativa de ser uma aplicação SGML e definiu explicitamente sua própria serialização "html", além de uma alternativa baseada em XML, o XHTML5.</p>
               <p>Fonte: Wikipedia</p>
               <center>
-                <a href="#" class="btn btn-primary">Clique aqui para comprar</a>
+              <img src="./assets/img/foto-html.jpg" alt="html">
+
+                <a href="./page-checkout.html" class="btn btn-primary btn-custom btn-lg">Compre Aqui</a>
               </center>
           </div>
         </div>
-      </div>
+    </div>
     </main>
-    <footer class="footer-section">
+    <footer id="contato" class="footer-section">
         <div class="container text-center alunos">
             <div class="row">
                 <div class="col-md-4 col-sm-12">

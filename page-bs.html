@@ -11,7 +11,7 @@
 <body>
     <header>
       <header>
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
             <div class="container">
                 <a class="navbar-brand logo" href="#">
                     <img src="./assets/img/logo.png" alt="Logo" class="d-inline-block align-text-top">
@@ -23,16 +23,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav navbar ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Início</a>
+                            <a class="nav-link active" aria-current="page" href="./index.html">Início</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Cursos</a>
+                            <a class="nav-link" href="./index.html#alunos">Cursos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre</a>
+                            <a class="nav-link" href="./page-sobre.html">Sobre</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contato</a>
+                            <a class="nav-link" href="#contato">Contato</a>
                         </li>
                         <li class="nav-item">
                             <button type="button" class="btn btn-success btn-custom" data-bs-toggle="modal" data-bs-target="#Login">
@@ -83,27 +83,27 @@
                 </div>
             </div>
         </div>
-          <div class="banner-page">
-              <h1>
-                Cursos
-              </h1>
-              <div class="icons-banner">
-                <ul class="icon-list">
-                    <li><img src="./assets/img/css3.png" alt="css3-icon"></li>
-                    <li><img src="./assets/img/html5.png" alt="html-icon"></li>
-                    <li><img src="./assets/img/javascript.png" alt="js-icon"></li>
-                    <li><img src="./assets/img/php.png" alt="php-icon"></li>
-                    <li><img src="./assets/img/icons8-bootstrap-480.png" alt="bootstrap-icon"></li>
-                    <li><img src="./assets/img/mysql.png" alt="mysql-icon"></li>
-                </ul>
-              </div>
-          </div>
-          <div class="border-banner">
-            <h4>Curso Bootstrap</h4>
-          </div>
     </header>
     <main class="main-section">
-      <div class="card-main">
+        <div class="banner-page">
+            <h1>
+              Cursos
+            </h1>
+            <div class="icons-banner">
+              <ul class="icon-list">
+                  <a href="./page-html.html"><li><img src="./assets/img/html-banner.png" alt="html-icon"></li></a>
+                  <a href="./page-css.html" class="btn-banner"><li><img src="./assets/img/css-banner.png" alt="css3-icon"></li></a>
+                  <a href="./page-js.html"><li><img src="./assets/img/js-banner.png" alt="js-icon"></li></a>
+                  <a href="./page-php.html"><li><img src="./assets/img/php.png" alt="php-icon"></li></a>
+                  <a href="#bs"><li><img src="./assets/img/icons8-bootstrap-480.png" alt="bootstrap-icon"></li></a>
+                  <a href="./page-mysql.html"><li><img src="./assets/img/mysql.png" alt="mysql-icon"></li></a>
+              </ul>
+            </div>
+        </div>
+        <div class="border-banner">
+          <h4>Curso Bootstrap</h4>
+        </div>
+      <div id="bs" class="card-main">
         <img class="img-card-B-MY" src="./assets/img/icons8-bootstrap-480.png" alt="">
         <div class="card">
           <h5 class="card-header">Sobre</h5>
@@ -137,13 +137,14 @@
             </p>
             <p>Fonte: Wikipedia.</p>
             <center>
-                <a href="#" class="btn btn-primary">Clique aqui para comprar</a>
+                <img src="./assets/img/foto-bs.jpg" alt="bootstrap">
+                <a href="./page-checkout.html" class="btn btn-primary btn-custom btn-lg">Compre Aqui</a>
               </center>
           </div>
         </div>
       </div>
     </main>
-    <footer class="footer-section">
+    <footer id="contato" class="footer-section">
         <div class="container text-center alunos">
             <div class="row">
                 <div class="col-md-4 col-sm-12">
