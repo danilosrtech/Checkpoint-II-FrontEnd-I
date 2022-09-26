@@ -10,14 +10,6 @@
     width: 200px;
 }
 
-.navbar {
-
-    width: 100%;
-    justify-content: end;
-    padding-right: 12px;
-    position: sticky;
-}
-
 .logo img {
     width: 200px;
 }
@@ -89,7 +81,7 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 450px;
+    min-height: 550px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -97,9 +89,6 @@
     width: 100%;
 }
 
-.banner-page{
-    width: 100%;
-}
 
 .banner-page h1{
     color: white;
