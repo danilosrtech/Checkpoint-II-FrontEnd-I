@@ -1,25 +1,16 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
-<html lang="en">
-=======
 <html lang="pt-br">
->>>>>>> dev_rafael
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ARDTech</title>
-
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style-page.css">
+    <title>Curso MySql</title>
 </head>
-
 <body>
     <header>
+      <header>
         <nav class="navbar navbar-expand-lg bg-light fixed-top">
             <div class="container">
                 <a class="navbar-brand logo" href="#">
@@ -32,10 +23,10 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav navbar ms-auto">
                         <li class="nav-item">
-                           <a class="nav-link active" aria-current="page" href="./index.html">Início</a>
+                            <a class="nav-link active" aria-current="page" href="./index.html">Início</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#alunos">Cursos</a>
+                            <a class="nav-link" href="./index.html#alunos">Cursos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./page-sobre.html">Sobre</a>
@@ -92,97 +83,58 @@
                 </div>
             </div>
         </div>
-      
     </header>
-
-    <main class="site-content text-center">
-
-        <section class="container-fluid bg-home">
-
-            <div class="container main-section">
-                <h1>ARDTech <br> a melhor escola de desenvolvimento web do Brasil</h1>
-                <p>Aulas síncronas e assíncronas</p>
-                <a href="#alunos"><button class="btn btn-success btn-custom btn-lg">Conheça os nossos
-                        cursos</button></a>
+    <main class="main-section">
+        <div class="banner-page">
+            <h1>
+              Cursos
+            </h1>
+            <div class="icons-banner">
+              <ul class="icon-list">
+                  <a href="./page-html.html"><li><img src="./assets/img/html-banner.png" alt="html-icon"></li></a>
+                  <a href="./page-css.html" class="btn-banner"><li><img src="./assets/img/css-banner.png" alt="css3-icon"></li></a>
+                  <a href="./page-js.html"><li><img src="./assets/img/js-banner.png" alt="js-icon"></li></a>
+                  <a href="./page-php.html"><li><img src="./assets/img/php.png" alt="php-icon"></li></a>
+                  <a href="./page-bs.html"><li><img src="./assets/img/icons8-bootstrap-480.png" alt="bootstrap-icon"></li></a>
+                  <a href="#mysql"><li><img src="./assets/img/mysql.png" alt="mysql-icon"></li></a>
+              </ul>
             </div>
-
-        </section>
-
-        <section class="container courses my-5">
-            <h2 class="title" id="alunos">Conheça os nossos cursos</h2>
-            <div class="row">
-                <div class="col-md-4 col-sm-12">
-                    <div class="card card-img" id="flipCard">
-                        <img src="./assets/img/html5.png" class="card-img-top" alt="HTML5">
-                        <div class="card-body">
-                            <h5 class="card-title">HTML5</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="./page-html.html" class="btn btn-success btn-custom">Saiba mais</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="card card-img">
-                        <img src="./assets/img/css3.png" class="card-img-top" alt="CSS3">
-                        <div class="card-body">
-                            <h5 class="card-title">CSS3</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="./page-css.html" class="btn btn-success btn-custom">Saiba mais</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="card card-img">
-                        <img src="./assets/img/javascript.png" class="card-img-top" alt="Javascript">
-                        <div class="card-body">
-                            <h5 class="card-title">Javascript</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="./page-js.html" class="btn btn-success btn-custom">Saiba mais</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-12">
-                    <div class="card card-img">
-                        <img src="./assets/img/php.png" class="card-img-top" alt="HTML5">
-                        <div class="card-body">
-                            <h5 class="card-title">PHP</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="./page-php.html" class="btn btn-success btn-custom">Saiba mais</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="card card-img">
-                        <img src="./assets/img/mysql.png" class="card-img-top" alt="CSS3">
-                        <div class="card-body">
-                            <h5 class="card-title">MySQL</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="./page-mysql.html" class="btn btn-success btn-custom">Saiba mais</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="card card-img">
-                        <img src="./assets/img/bootstrap.png" class="card-img-top" alt="Javascript">
-                        <div class="card-body">
-                            <h5 class="card-title">Bootstrap</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="./page-bs.html" class="btn btn-success btn-custom">Saiba mais</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        </div>
+        <div class="border-banner">
+          <h4>Curso MySql</h4>
+        </div>
+      <div id="mysql" class="card-main">
+        <img class="img-card-B-MY" src="./assets/img/icons8-mysql-100.png" alt="">
+        <div class="card">
+          <h5 class="card-header">Sobre</h5>
+          <div class="card-body">
+            <h6 class="card-title">O que é:</h6>
+            <p class="card-text">O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation, com mais de 10 milhões de instalações pelo mundo.</p>
+            <p>
+              Entre os usuários do banco de dados MySQL estão: NASA, Friendster, Banco Bradesco, Dataprev, HP, Nokia, Sony, Lufthansa, U.S. Army, U.S. Federal Reserve Bank, Associated Press, Alcatel, Slashdot, Cisco Systems, Google, entre outros.
+            </p>
+            <h6>História:</h6>
+            <p>
+              O MySQL foi criado na Suécia por suecos e um finlandês: David Axmark, Allan Larsson e Michael "Monty" Widenius, que têm trabalhado juntos desde a década de 1980. Hoje seu desenvolvimento e manutenção empregam aproximadamente 400 profissionais no mundo inteiro, e mais de mil contribuem testando o software, integrando-o a outros produtos, e escrevendo a respeito dele.
+            </p>
+            <p>
+              No dia 16 de Janeiro de 2008, a MySQL AB, desenvolvedora do MySQL foi adquirida pela Sun Microsystems, por US$ 1 bilhão, um preço jamais visto no setor de licenças livres. No dia 20 de Abril de 2009, foi anunciado que a Oracle compraria a Sun Microsystems e todos os seus produtos, incluindo o MySQL. Após investigações da Comissão Europeia sobre a aquisição para evitar formação de monopólios no mercado a compra foi autorizada e hoje a Sun faz parte da Oracle.
+            </p>
+            <p>
+              O sucesso do MySQL deve-se em grande medida à fácil integração com o PHP incluído, quase que obrigatoriamente, nos pacotes de hospedagem de sites da Internet oferecidos atualmente. Empresas como Yahoo! Finance, MP3.com, Motorola, NASA, Silicon Graphics e Texas Instruments usam o MySQL em aplicações de missão crítica.[8] A Wikipédia é um exemplo de utilização do MySQL em sites de grande audiência.
+            </p>
+            <p>
+              O MySQL hoje suporta Unicode, Full Text Indexes, replicação, Hot Backup, GIS, OLAP e muitos outros recursos de banco de dados.
+            </p>
+            <p>Fonte: Wikipedia</p>
+            <center>
+                <img src="./assets/img/foto-mysql.jpg" alt="mysql">
+                <a href="./page-checkout.html" class="btn btn-primary btn-custom btn-lg">Compre Aqui</a>
+              </center>
+          </div>
+        </div>
+      </div>
     </main>
-
     <footer id="contato" class="footer-section">
         <div class="container text-center alunos">
             <div class="row">
@@ -262,12 +214,7 @@
         <div class="prof-ivin">
             <p>Checkpoint 02 - Front End </p>
         </div>
-    </footer>
-
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-        crossorigin="anonymous"></script>
+</footer>
 </body>
-
-</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</html>  

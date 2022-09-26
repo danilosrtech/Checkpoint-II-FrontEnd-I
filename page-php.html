@@ -1,25 +1,16 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
-<html lang="en">
-=======
 <html lang="pt-br">
->>>>>>> dev_rafael
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ARDTech</title>
-
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style-page.css">
+    <title>Curso PHP</title>
 </head>
-
 <body>
     <header>
+      <header>
         <nav class="navbar navbar-expand-lg bg-light fixed-top">
             <div class="container">
                 <a class="navbar-brand logo" href="#">
@@ -32,10 +23,10 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav navbar ms-auto">
                         <li class="nav-item">
-                           <a class="nav-link active" aria-current="page" href="./index.html">Início</a>
+                            <a class="nav-link active" aria-current="page" href="./index.html">Início</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#alunos">Cursos</a>
+                            <a class="nav-link" href="./index.html#alunos">Cursos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./page-sobre.html">Sobre</a>
@@ -92,97 +83,63 @@
                 </div>
             </div>
         </div>
-      
     </header>
-
-    <main class="site-content text-center">
-
-        <section class="container-fluid bg-home">
-
-            <div class="container main-section">
-                <h1>ARDTech <br> a melhor escola de desenvolvimento web do Brasil</h1>
-                <p>Aulas síncronas e assíncronas</p>
-                <a href="#alunos"><button class="btn btn-success btn-custom btn-lg">Conheça os nossos
-                        cursos</button></a>
+    <main class="main-section">
+        <div class="banner-page">
+            <h1>
+              Cursos
+            </h1>
+            <div class="icons-banner">
+              <ul class="icon-list">
+                  <a href="./page-html.html"><li><img src="./assets/img/html-banner.png" alt="html-icon"></li></a>
+                  <a href="./page-css.html" class="btn-banner"><li><img src="./assets/img/css-banner.png" alt="css3-icon"></li></a>
+                  <a href="./page-js.html"><li><img src="./assets/img/js-banner.png" alt="js-icon"></li></a>
+                  <a href="#php"><li><img src="./assets/img/php.png" alt="php-icon"></li></a>
+                  <a href="./page-bs.html"><li><img src="./assets/img/icons8-bootstrap-480.png" alt="bootstrap-icon"></li></a>
+                  <a href="./page-mysql.html"><li><img src="./assets/img/mysql.png" alt="mysql-icon"></li></a>  
+              </ul>
             </div>
+        </div>
+        <div class="border-banner">
+          <h4>Curso PHP</h4>
+        </div>
+    <div id="php" class="card-main">
+      <img class="img-card-php" src="./assets/img/php.png" alt="">
+      <div class="card">
+        <h5 class="card-header">Sobre</h5>
+        <div class="card-body">
+          <h5 class="card-title">O que é:</h5>
+          <p class="card-text">PHP é uma linguagem interpretada livre, usada originalmente apenas para o desenvolvimento de aplicações presentes e atuantes no lado do servidor, capazes de gerar conteúdo dinâmico na World Wide Web.</p>
+          <p>
+            PHP (um acrônimo recursivo para "PHP: Hypertext Preprocessor", originalmente Personal Home Page) é uma linguagem interpretada livre, usada originalmente apenas para o desenvolvimento de aplicações presentes e atuantes no lado do servidor, capazes de gerar conteúdo dinâmico na World Wide Web. Figura entre as primeiras linguagens passíveis de inserção em documentos HTML, dispensando em muitos casos o uso de arquivos externos para eventuais processamentos de dados. O código é interpretado no lado do servidor pelo módulo PHP, que também gera a página web a ser visualizada no lado do cliente. A linguagem evoluiu, passou a oferecer funcionalidades em linha de comando, e além disso, ganhou características adicionais, que possibilitaram usos adicionais do PHP, não relacionados a web sites. É possível instalar o PHP na maioria dos sistemas operacionais, gratuitamente. Concorrente direto da tecnologia ASP pertencente à Microsoft, o PHP é utilizado em aplicações como o MediaWiki, Facebook, Drupal, Joomla!, WordPress, Magento e o Oscommerce.
+          </p>
+          <p>
+            Criado por Rasmus Lerdorf em 1995, o PHP tem a produção de sua implementação principal, referência formal da linguagem, mantida por uma organização chamada The PHP Group. O PHP é software livre, licenciado sob a PHP License, uma licença incompatível com a GNU General Public License (GPL) devido a restrições no uso do termo PHP.
+          </p>
+          <h6>História:</h6>
+          <p>
+            A linguagem foi criada em 1994 e o código fonte do PHP só foi liberado em 1995, como um pacote de programas CGI criados por Rasmus Lerdorf, com o nome Personal Home Page Tools, para substituir um conjunto de scripts Perl que ele usava no desenvolvimento de sua página pessoal. Em 1997 foi lançado o novo pacote da linguagem com o nome de PHP/FI, trazendo a ferramenta Forms Interpreter, um interpretador de comandos SQL. Mais tarde, Zeev Suraski desenvolveu o analisador do PHP 3 que contava com o primeiro recurso de orientação a objetos, que dava poder de alcançar alguns pacotes, tinha herança e dava aos desenvolvedores somente a possibilidade de implementar propriedades e métodos. Pouco depois, Zeev e Andi Gutmans, escreveram o PHP 4, abandonando por completo o PHP 3, dando mais poder à máquina da linguagem e maior número de recursos de orientação a objetos. O problema sério que apresentou o PHP 4 foi a criação de cópias de objetos, pois a linguagem ainda não trabalhava com apontadores ou handlers, como são as linguagens Java, Ruby e outras. O problema fora resolvido na versão 5 do PHP, que já trabalha com handlers. Caso se copie um objeto, na verdade copiaremos um apontador, pois, caso haja alguma mudança na versão original do objeto, todas as outras também sofrem a alteração, o que não acontecia na PHP 4.
+          </p>
+          <p>
+            Trata-se de uma linguagem extremamente modularizada, o que a torna ideal para instalação e uso em servidores web. Diversos módulos são criados no repositório de extensões PECL (PHP Extension Community Library) e alguns destes módulos são introduzidos como padrão em novas versões da linguagem. É muito parecida, em tipos de dados, sintaxe e mesmo funções, com a linguagem C e com a C++. Pode ser, dependendo da configuração do servidor, embarcada no código HTML. Existem versões do PHP disponíveis para os seguintes sistemas operacionais: Windows, Linux, FreeBSD, Mac OS, OS/2, AS/400, Novell Netware, RISC OS, AIX, IRIX e Solaris.
+          </p>
+          <p>
+            Construir uma página dinâmica baseada em bases de dados é simples com PHP, (em parte, vale lembrar), este provê suporte a um grande número de bases de dados: Oracle, Sybase, PostgreSQL, InterBase, MySQL, SQLite, MSSQL, Firebird, etc., podendo abstrair o banco com a biblioteca ADOdb, entre outras. A Wikipédia funciona sobre um software inteiramente escrito em PHP, usando bases de dados MySQL: o MediaWiki.
+          </p>
+          <p>
+            PHP tem suporte aos protocolos: IMAP, SNMP, NNTP, POP3, HTTP, LDAP, XML-RPC, SOAP. É possível abrir sockets e interagir com outros protocolos. E as bibliotecas de terceiros expandem ainda mais estas funcionalidades. Existem iniciativas para utilizar o PHP como linguagem de programação de sistemas fixos. A mais notável é a PHP-GTK. Trata-se de um conjunto do PHP com a biblioteca GTK, portada do C++, fazendo assim softwares inter-operacionais entre Windows e Linux. Na prática, essa extensão tem sido muito pouco utilizada para projetos reais.
 
-        </section>
-
-        <section class="container courses my-5">
-            <h2 class="title" id="alunos">Conheça os nossos cursos</h2>
-            <div class="row">
-                <div class="col-md-4 col-sm-12">
-                    <div class="card card-img" id="flipCard">
-                        <img src="./assets/img/html5.png" class="card-img-top" alt="HTML5">
-                        <div class="card-body">
-                            <h5 class="card-title">HTML5</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="./page-html.html" class="btn btn-success btn-custom">Saiba mais</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="card card-img">
-                        <img src="./assets/img/css3.png" class="card-img-top" alt="CSS3">
-                        <div class="card-body">
-                            <h5 class="card-title">CSS3</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="./page-css.html" class="btn btn-success btn-custom">Saiba mais</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="card card-img">
-                        <img src="./assets/img/javascript.png" class="card-img-top" alt="Javascript">
-                        <div class="card-body">
-                            <h5 class="card-title">Javascript</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="./page-js.html" class="btn btn-success btn-custom">Saiba mais</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-12">
-                    <div class="card card-img">
-                        <img src="./assets/img/php.png" class="card-img-top" alt="HTML5">
-                        <div class="card-body">
-                            <h5 class="card-title">PHP</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="./page-php.html" class="btn btn-success btn-custom">Saiba mais</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="card card-img">
-                        <img src="./assets/img/mysql.png" class="card-img-top" alt="CSS3">
-                        <div class="card-body">
-                            <h5 class="card-title">MySQL</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="./page-mysql.html" class="btn btn-success btn-custom">Saiba mais</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="card card-img">
-                        <img src="./assets/img/bootstrap.png" class="card-img-top" alt="Javascript">
-                        <div class="card-body">
-                            <h5 class="card-title">Bootstrap</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="./page-bs.html" class="btn btn-success btn-custom">Saiba mais</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+            O acrônimo recursivo PHP representa um elefante, que é conhecido como o mascote da linguagem.
+          </p>
+          <p>Fonte: Wikipedia.</p>
+          <center>
+            <img src="./assets/img/foto-php.jpg" alt="php">
+            <a href="./page-checkout.html" class="btn btn-primary btn-custom btn-lg">Compre Aqui</a>
+          </center>
+        </div>
+      </div>
+    </div>
     </main>
-
     <footer id="contato" class="footer-section">
         <div class="container text-center alunos">
             <div class="row">
@@ -262,12 +219,7 @@
         <div class="prof-ivin">
             <p>Checkpoint 02 - Front End </p>
         </div>
-    </footer>
-
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-        crossorigin="anonymous"></script>
+</footer>
 </body>
-
-</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</html>  

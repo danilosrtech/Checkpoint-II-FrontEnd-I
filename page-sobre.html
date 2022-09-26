@@ -1,25 +1,16 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
-<html lang="en">
-=======
 <html lang="pt-br">
->>>>>>> dev_rafael
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ARDTech</title>
-
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style-page.css">
+    <title>Curso HTML5</title>
 </head>
-
 <body>
     <header>
+      <header>
         <nav class="navbar navbar-expand-lg bg-light fixed-top">
             <div class="container">
                 <a class="navbar-brand logo" href="#">
@@ -32,10 +23,10 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav navbar ms-auto">
                         <li class="nav-item">
-                           <a class="nav-link active" aria-current="page" href="./index.html">Início</a>
+                            <a class="nav-link active" aria-current="page" href="./index.html">Início</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#alunos">Cursos</a>
+                            <a class="nav-link" href="./index.html#alunos">Cursos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./page-sobre.html">Sobre</a>
@@ -92,97 +83,49 @@
                 </div>
             </div>
         </div>
-      
+
     </header>
-
-    <main class="site-content text-center">
-
-        <section class="container-fluid bg-home">
-
-            <div class="container main-section">
-                <h1>ARDTech <br> a melhor escola de desenvolvimento web do Brasil</h1>
-                <p>Aulas síncronas e assíncronas</p>
-                <a href="#alunos"><button class="btn btn-success btn-custom btn-lg">Conheça os nossos
-                        cursos</button></a>
+    <main class="main-section">
+        <div class="banner-page">
+            <h1>
+              Cursos
+            </h1>
+            <div class="icons-banner">
+              <ul class="icon-list">
+                  <a href="./page-html.html"><li><img src="./assets/img/html-banner.png" alt="html-icon"></li></a>
+                  <a href="./page-css.html" class="btn-banner"><li><img src="./assets/img/css-banner.png" alt="css3-icon"></li></a>
+                  <a href="./page-js.html"><li><img src="./assets/img/js-banner.png" alt="js-icon"></li></a>
+                  <a href="./page-php.html"><li><img src="./assets/img/php.png" alt="php-icon"></li></a>
+                  <a href="./page-bs.html"><li><img src="./assets/img/icons8-bootstrap-480.png" alt="bootstrap-icon"></li></a>
+                  <a href="./page-mysql.html"><li><img src="./assets/img/mysql.png" alt="mysql-icon"></li></a>   
+              </ul>
             </div>
-
-        </section>
-
-        <section class="container courses my-5">
-            <h2 class="title" id="alunos">Conheça os nossos cursos</h2>
-            <div class="row">
-                <div class="col-md-4 col-sm-12">
-                    <div class="card card-img" id="flipCard">
-                        <img src="./assets/img/html5.png" class="card-img-top" alt="HTML5">
-                        <div class="card-body">
-                            <h5 class="card-title">HTML5</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="./page-html.html" class="btn btn-success btn-custom">Saiba mais</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="card card-img">
-                        <img src="./assets/img/css3.png" class="card-img-top" alt="CSS3">
-                        <div class="card-body">
-                            <h5 class="card-title">CSS3</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="./page-css.html" class="btn btn-success btn-custom">Saiba mais</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="card card-img">
-                        <img src="./assets/img/javascript.png" class="card-img-top" alt="Javascript">
-                        <div class="card-body">
-                            <h5 class="card-title">Javascript</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="./page-js.html" class="btn btn-success btn-custom">Saiba mais</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-12">
-                    <div class="card card-img">
-                        <img src="./assets/img/php.png" class="card-img-top" alt="HTML5">
-                        <div class="card-body">
-                            <h5 class="card-title">PHP</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="./page-php.html" class="btn btn-success btn-custom">Saiba mais</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="card card-img">
-                        <img src="./assets/img/mysql.png" class="card-img-top" alt="CSS3">
-                        <div class="card-body">
-                            <h5 class="card-title">MySQL</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="./page-mysql.html" class="btn btn-success btn-custom">Saiba mais</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="card card-img">
-                        <img src="./assets/img/bootstrap.png" class="card-img-top" alt="Javascript">
-                        <div class="card-body">
-                            <h5 class="card-title">Bootstrap</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="./page-bs.html" class="btn btn-success btn-custom">Saiba mais</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        </div>
+        <div class="border-banner">
+          <h4>Sobre nós</h4>
+        </div>
+    <div id="html" class="card-main">
+        <img class="img-card-sobre" src="./assets/img/logo.png" alt="">
+        <div  class="card">
+          <h5 class="card-header"></h5>
+          <div class="card-body">
+            <h6></h6>
+            <p class="card-text">Se você está em busca da melhor escola de tecnologia para sua formação de Front End, somos a sua melhor escolha!</p>
+            <p>Aqui você irá aprender tecnologias como HTML, CSS, Javascript, PHP, Bootstrap e também o banco de dados MySql.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit cupiditate, a quam ullam necessitatibus sequi qui libero blanditiis laudantium perferendis, voluptatum delectus praesentium, quae nihil maiores. Libero perferendis possimus corporis.
+            Consequuntur laborum repudiandae eius maxime molestias sed ipsum qui ad veritatis. Quas aperiam in saepe dolor perspiciatis. Quia quae earum, voluptatum esse, eligendi, officiis iure amet harum veritatis ipsum laborum.
+            Aspernatur repudiandae sapiente blanditiis delectus accusamus doloribus. Et alias repellendus assumenda eligendi temporibus, veniam ex magnam minima doloribus quis, similique, quam ut autem fuga impedit illo? Adipisci velit ratione pariatur.
+            At nobis, debitis recusandae atque facilis officiis labore quasi porro aliquid explicabo, veniam aut eaque? Repellendus vero, non voluptatibus consequuntur, necessitatibus, inventore sequi adipisci hic sint excepturi labore fugit placeat.
+            Officiis qui, ut voluptates placeat natus non nostrum deleniti, nam omnis corrupti, corporis vel vero velit. Ea ab possimus tempora nisi, magni aliquam quaerat ratione tenetur placeat harum alias repudiandae!
+            Reiciendis, accusantium! Placeat maxime quod blanditiis deleniti earum optio quidem et architecto pariatur necessitatibus. Quaerat, culpa neque minus, rem nesciunt voluptatum sequi repellat asperiores modi facere at, commodi pariatur fugit!
+            Ipsum sit repellendus ex exercitationem at dignissimos atque deserunt enim, voluptatem consequuntur nesciunt deleniti ad hic, provident non culpa adipisci fuga asperiores iste laborum? Ipsa magnam aspernatur in vero dignissimos.
+            Culpa corrupti eum unde reprehenderit, dolores odio, dicta impedit, minima fugiat accusamus aut sunt aperiam repellendus ut adipisci. Cupiditate impedit expedita laboriosam odio quo unde dolores ducimus sed animi obcaecati?
+            Cupiditate tenetur, molestias quis in rem ex harum ipsa nulla ipsum sit, sapiente numquam? Delectus veritatis dolorum, eum similique et numquam aperiam hic nostrum praesentium vero earum in, nihil quae?
+            Voluptates consequatur mollitia ea veritatis? Odit maxime neque adipisci cupiditate commodi provident tempore placeat culpa deleniti officia illum eveniet porro, voluptatibus explicabo autem nobis similique repudiandae. Optio, impedit. Nemo, itaque!</p>
+          </div>
+        </div>
+    </div>
     </main>
-
     <footer id="contato" class="footer-section">
         <div class="container text-center alunos">
             <div class="row">
@@ -262,12 +205,7 @@
         <div class="prof-ivin">
             <p>Checkpoint 02 - Front End </p>
         </div>
-    </footer>
-
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-        crossorigin="anonymous"></script>
+</footer>
 </body>
-
-</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</html>      

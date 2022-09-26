@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.logo:hover {
+    animation-name: animation-logo;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.btn-custom {
+    background-color: #7ED957;
+    color: white;
+    border: none;
+}
+
+.nav-link:hover {
+    color: #7ED957;
+}
+
+.bg-home {
+    background-image: url('./assets/img/bg-home.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.modal-tamanho {
+    width: 300px;
+}
+
+.modal-fechar {
+    display: block;
+    margin-top: 2%;
+    margin-left: 90%;
+}
+
+.logo-form {
+    width: 200px;
+}
+
+.login input {
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.botao button {
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+
+    background-color: #7ED957;
+    color: white;
+    border: none;
+  }
+
+
+.esqueci a {
+    margin: 22%;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.banner-page{
+    background: url(./assets/img/bg-home.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 30px;
+    width: 100%;
+}
+
+
+.banner-page h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+}
+
+
+.icons-banner ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.icon-list li img{
+    width: 120px;
+}
+
+.border-banner{
+    background-color: rgb(235, 233, 233);
+    min-height: 50px;
+    text-align: center;
+    padding-top:10px;
+    font-family: 'Anton', sans-serif;
+}
+
+
+
+.main-section{
+    min-height: 100vh;
+    /* padding: 25px; */
+    scroll-behavior: smooth;
+}
+
+
+.main-section .card-main{
+    margin: 70px auto;
+    position: relative;
+    width: 90%;
+}
+
+.main-section .img-card{
+    width: 80px;
+    z-index: 50;
+    position: absolute;
+    top: -45px;
+}
+
+.main-section .img-card-sobre{
+    width: 150px;
+    z-index: 50;
+    position: absolute;
+    top: px;
+}
+
+.img-card-php{
+    width: 100px;
+    z-index: 50;
+    position: absolute;
+    margin-left: 10px;
+    top: -50px;
+}
+
+.img-card-B-MY{
+    width: 80px;
+    z-index: 50;
+    position: absolute;
+    margin-left: 8px;
+    top: -45px;
+}
+
+.card-header{
+    height: 40px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+
+.card-body img{
+    width: 950px;
+    display: block;
+    align-items: center;
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+
+.btn-primary:hover{
+    background-color: #198754 !important;
+}
+.footer-section {
+    background-color: black;
+    color: white;
+}
+
+.alunos {
+    padding: 2rem 1rem;
+}
+
+.alunos a{
+    color: #7ED957;
+}
+
+.alunos a:hover {
+    color: #198754
+}
+
+.prof-ivin {
+    font-size: 0.8rem;
+    padding: 2rem;
+}
