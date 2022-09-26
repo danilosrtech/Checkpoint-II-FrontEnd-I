@@ -172,9 +172,86 @@
 .card-body img{
     width: 950px;
     display: block;
-    align-items: center;
     margin-bottom: 45px;
     margin-top: 45px;
+}
+
+@media(max-width: 1158px){
+
+.card-body img{
+
+    width: 700px;
+    display: block;
+    margin-bottom: 45px;
+    margin-top: 45px;
+
+}
+
+}
+
+@media(max-width: 813px){
+
+    .card-body img{
+    
+        width: 600px;
+        display: block;
+        margin-bottom: 45px;
+        margin-top: 45px;
+    
+    }
+    
+}
+
+@media(max-width: 708px){
+
+    .card-body img{
+    
+        width: 500px;
+        display: block;
+        margin-bottom: 45px;
+        margin-top: 45px;
+    
+    }
+    
+}
+
+@media(max-width: 589px){
+
+    .card-body img{
+    
+        width: 400px;
+        display: block;
+        margin-bottom: 45px;
+        margin-top: 45px;
+    
+    }
+    
+}
+
+@media(max-width: 478px){
+
+    .card-body img{
+    
+        width: 290px;
+        display: block;
+        margin-bottom: 45px;
+        margin-top: 45px;
+    
+    }
+    
+}
+
+@media(max-width: 350px){
+
+    .card-body img{
+    
+        width: 240px;
+        display: block;
+        margin-bottom: 45px;
+        margin-top: 45px;
+    
+    }
+    
 }
 
 .btn-primary:hover{
